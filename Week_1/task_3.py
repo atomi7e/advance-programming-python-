@@ -8,9 +8,9 @@ part by 100 times too
 
 a = float(input('Enter a number: '))
 
-integer_part = int(a)
-fractional_part = a - integer_part
+integer = int(a)
+fractional = a - integer
 
-new_number = round((fractional_part * 100) + (integer_part / 100), 2)
+new_number = round((fractional * 100) + (integer / 100), 2)
 
 print(new_number)
