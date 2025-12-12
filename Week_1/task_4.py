@@ -5,3 +5,10 @@ Output Data must contain a single integer - the sum of the numbers between 1 and
 N, inclusive.
 input output
 5 15'''
+number = int(input('Enter a number: '))
+
+sum = 0
+for i in range(number+1):
+    sum += i
+
+print(sum)
