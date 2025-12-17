@@ -12,7 +12,10 @@ elif operation == '-':
     print(number_1 - number_2)
 elif operation == '*':
     print(number_1 * number_2)
-elif operation == '/' and number_2 != 0:
-    print(number_1 / number_2)
+elif operation == '/':
+    if number_2 == 0:
+        print("Error")
+    else:
+        print(number_1 / number_2)
 else:
     print('Error')

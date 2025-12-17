@@ -8,5 +8,5 @@ Based on the entered result, the computer determines the number and prints it on
 the screen. '''
 
 num = int(input('Enter a number: '))
-result = (num * 5 + 8) * 2
+result = ((num /2) - 8) /2
 print(result)
