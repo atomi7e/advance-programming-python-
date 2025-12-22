@@ -7,3 +7,4 @@ spaces). The string must be no more than 250 characters long.
 Output Data
 The desired number of arrows must be printed on a single line
 '''
+print('Helo world')
