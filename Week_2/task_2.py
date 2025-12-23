@@ -26,19 +26,19 @@ aAa
 a = input()
 b = input()
 
-shifts = [] 
+bb = b + b
+
+shifts = set()
 len_b = len(b)
 
 for i in range(len_b):
-    current_shift = b[i:] + b[:i]
-    shifts.append(current_shift)
+    shifts.add(bb[i:i+len_b])
 
 count = 0 
-len_a = len(a)
 
-for i in range(len_a - len_b + 1):
-    substring = a[i : i + len_b]
-    if substring in shifts:
-        count += 1
+for i in range(len(a) - len_b + 1):
+    if a[i:i + len_b] in shifts:
+        count +=1
 
+print(shifts)
 print(count)
