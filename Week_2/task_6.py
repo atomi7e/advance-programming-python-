@@ -10,17 +10,13 @@ First you need to determine the length of each row in the list and find the
 maximum. Next, we add the characters "_" to the strings whose length is less.'''
 
 def all_eq(lst):
-    if not lst:
-        return []
-    max_len = max(len(s) for s in lst)
-    
-    return [s.ljust(max_len, "_") for s in lst]
+    if not lst: return []
+    # Находим макс длину
+    m = max(len(s) for s in lst)
+    # Генерируем новый список с выравниванием
+    return [s.ljust(m, "_") for s in lst]
 
-if __name__ == '__main__':
-    n = int(input())
-    
-    data = [input() for _ in range(n)]
-    
-    result = all_eq(data)
-
-    print(*result, sep='\n')
+# Основная часть
+n = int(input())
+data = [input() for _ in range(n)]
+print(*all_eq(data), sep='\n')
