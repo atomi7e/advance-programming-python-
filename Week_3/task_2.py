@@ -18,9 +18,7 @@ def hexagon_area(a):
 side = float(input("Enter your side of hexagon: "))
 print(f"Side: {side}, Area: {hexagon_area(side)}")
 
-
 print("\nTask 2.2")
-
 
 for i in range(3):
     print(f"Прямоугольник номер {i+1}")
