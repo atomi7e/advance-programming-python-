@@ -11,12 +11,9 @@ maximum. Next, we add the characters "_" to the strings whose length is less.'''
 
 def all_eq(lst):
     if not lst: return []
-    # Находим макс длину
     m = max(len(s) for s in lst)
-    # Генерируем новый список с выравниванием
     return [s.ljust(m, "_") for s in lst]
 
-# Основная часть
 n = int(input())
 data = [input() for _ in range(n)]
 print(*all_eq(data), sep='\n')
