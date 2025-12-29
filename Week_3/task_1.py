@@ -1,6 +1,8 @@
 '''
 Task 1.
-1. Write a program to calculate the area of various geometric shapes.'''
+1. Write a program to calculate the area of various geometric shapes.
+2. Given 3 different arrays of integers (the size of each does not exceed 15). In
+each array, find the sum of the elements and the arithmetic mean.'''
 
 import math
 
