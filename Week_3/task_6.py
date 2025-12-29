@@ -40,4 +40,4 @@ diag = int(input("Enter your diagonal: "))
 area1 = heron(s1, s2, diag) 
 area2 = heron(s3, s4, diag) 
 
-print("Overall result:", area1 + area2)
+print("Overall result:", area1 + area2) 
