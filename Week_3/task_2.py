@@ -21,7 +21,7 @@ print(f"Side: {side}, Area: {hexagon_area(side)}")
 print("\nTask 2.2")
 
 for i in range(3):
-    print(f"Прямоугольник номер {i+1}")
-    a = float(input("Введите сторону A: "))
-    b = float(input("Введите сторону B: "))
-    print("Площадь:", a * b)
+    print(f"Rectangle number {i+1}")
+    a = float(input("Enter side A: "))
+    b = float(input("Enter side B: "))
+    print("Area:", a * b)
