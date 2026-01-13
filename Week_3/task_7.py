@@ -1,11 +1,8 @@
 '''
 Task 7.
 1. Numbers X, Y, Z, T are given — the lengths of the sides of the quadrilateral.
-Calculate it
-area if the angle between sides of length X and Y is a right angle. Use two routines
-to calculate areas: a right triangle and a rectangle.
-2. Write a program that converts a non-negative integer given to it into a 10-digit
-octal code, preserving leading zeros.
+Calculate it area if the angle between sides of length X and Y is a right angle. Use two routines to calculate areas: a right triangle and a rectangle.
+2. Write a program that converts a non-negative integer given to it into a 10-digit octal code, preserving leading zeros.
 '''
 
 import math
